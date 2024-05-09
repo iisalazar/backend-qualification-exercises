@@ -1,4 +1,5 @@
 import { serialize, deserialize, Value } from './';
+import util from 'util';
 
 describe('Serialization', () => {
   describe('scalars', () => {
